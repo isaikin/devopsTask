@@ -1,0 +1,2 @@
+[jenkins]
+10.0.0.4 ansible_ssh_user=isaikinvv ansible_ssh_pass=******

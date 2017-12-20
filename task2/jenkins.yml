@@ -1,0 +1,6 @@
+- name: Jenkins
+  hosts: jenkins
+  roles:
+    # install jenkins
+    - { role: flyapen.jenkins, become: yes, become_user: root }
+    - { role: init-spring, become: yes, become_user: root }
